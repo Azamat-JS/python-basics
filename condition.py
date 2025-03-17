@@ -33,3 +33,24 @@
 # friend3_likes_drama = False
 # if friend1_likes_comedy or friend2_likes_action or friend3_likes_drama:
 #     print('good')
+
+#_-----------
+
+# c = "Ok"
+# if(c=="Okgs"):
+#     print('go')
+# else:
+#     print('stop')
+# print('mike')
+#----------
+
+def add(a, b):
+    return (sum((a,b)))
+print(add(1,2))
+
+with open('./single/example1.txt', 'r') as file1:
+  file_stuff=file1.readline()
+  print(file_stuff)
+
+# print(file1.closed)
+# print(file_stuff)
