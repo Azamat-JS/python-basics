@@ -56,18 +56,23 @@
 # count = B.count(1)
 # print(count) # 4
 
-C=['we', 'are', 12, 'friends']
-new_list = C.insert(2, "twelve")
-print(C) # ['we', 'are', 'twelve', 12, 'friends']
+# C=['we', 'are', 12, 'friends']
+# new_list = C.insert(2, "twelve")
+# print(C) # ['we', 'are', 'twelve', 12, 'friends']
 
-my_list = [1, 2, 3, 4, 5] 
-print(my_list[1:4]) 
-# Output: [2, 3, 4] (elements from index 1 to 3)
-print(my_list[:3]) 
-# Output: [1, 2, 3] (elements from the beginning up to index 2) 
-print(my_list[2:]) 
-# Output: [3, 4, 5] (elements from index 2 to the end) 
-print(my_list[::2]) 
-# Output: [1, 3, 5] (every second element)
+# my_list = [1, 2, 3, 4, 5] 
+# print(my_list[1:4]) 
+# # Output: [2, 3, 4] (elements from index 1 to 3)
+# print(my_list[:3]) 
+# # Output: [1, 2, 3] (elements from the beginning up to index 2) 
+# print(my_list[2:]) 
+# # Output: [3, 4, 5] (elements from index 2 to the end) 
+# print(my_list[::2]) 
+# # Output: [1, 3, 5] (every second element)
 
 print([1, 1, 1] + [2, 3])
+L=['c', 'd']
+L.append(['a', 'b'])
+print(L)
+
+print(len(('a', 1)))
